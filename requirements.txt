@@ -1,0 +1,23 @@
+# Install the CUDA build of PyTorch first (see README.md), otherwise pip may
+# install a CPU-only build on Windows. Then run: pip install -r requirements.txt
+
+numpy
+pandas
+scipy>=1.8
+scikit-learn
+scikit-image>=0.19
+opencv-python
+matplotlib
+openpyxl
+requests
+tqdm
+pillow
+torch
+torchvision
+timm
+transformers
+
+# Optional, only needed for the --cross-check option:
+# statsmodels
+# pingouin
+# factor_analyzer
